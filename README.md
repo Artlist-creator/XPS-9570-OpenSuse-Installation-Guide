@@ -49,4 +49,4 @@ You must:
 * Type `grub2-mkconfig -o /boot/grub2/grub.cfg` to update your bootloader
 
  And now we have fuctional opensuse on Xps 9570. If you find some issues please let me know. 
-This is the first time I have installed on my xps 9570 after I messed up with ubuntu.
+This is the first time I have installed on my xps 9570 after I messed up with my last distro_Ubuntu.
