@@ -40,8 +40,13 @@ You must:
 * In openSuse TumbleWeed NVIDIA driver is installed in install process but in leap version you need to add repos to install it. ( You can find it [here](https://en.opensuse.org/SDB:NVIDIA_drivers))
 * Then we install primer-select in suse by typing in terminal `zypper in suse-prime bbswitch`
 * Switch to intel driver 'sudo prime-select intel`
-* Restart your laptop `sudo reboot -p'
+* Restart your laptop `sudo reboot -p' 
 * Move hightlight at the top, strike `e`. Delete `nomodeset` option which we typed ealy on
 * `Ctrl + x` to boot the system
+* After booting to system, type to terminal ` sudo vim /etc/default/grub`
+* In line `GRUB_CMDLINE_LINUX_DEFAULT`, delete `nomodeset`. After that this line will look like `GRUB_CMDLINE_LINUX_DEFAULT="splash=silent resume=YOUR/DIRECT/TO/swap quiet mitigations=auto"`
+* Press Esc key and type `:wq` to quit vim
+* Type `grub2-mkconfig -o /boot/grub2/grub.cfg` to update your bootloader
 
-And now we have full fuctional opensuse on Xps 9570
+ And now we have fuctional opensuse on Xps 9570. If you find some issues please let me know. 
+This is the first time I have installed on my xps 9570 after I messed up with ubuntu.
