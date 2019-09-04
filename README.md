@@ -1,0 +1,1 @@
+# XPS-9570-OpenSuse-Installation-Guilde
