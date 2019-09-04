@@ -47,6 +47,7 @@ You must:
 * In line `GRUB_CMDLINE_LINUX_DEFAULT`, delete `nomodeset`. After that this line will look like `GRUB_CMDLINE_LINUX_DEFAULT="splash=silent resume=YOUR/DIRECT/TO/swap quiet mitigations=auto"`
 * Press Esc key and type `:wq` to quit vim
 * Type `grub2-mkconfig -o /boot/grub2/grub.cfg` to update your bootloader
+
  **Note** You should use XServer due to suse-prime do not support wayland
  
  And now we have fuctional opensuse on Xps 9570. If you find some issues please let me know. 
