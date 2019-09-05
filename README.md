@@ -1,4 +1,4 @@
-# XPS-9570-OpenSuse-Installation-Guilde
+# XPS 9570 OpenSuse Installation Guilde
 
 ***Disclaimer:*** *This instruction only apply to tumbleweed if you go for leap version, you must add some repositories first.
 
